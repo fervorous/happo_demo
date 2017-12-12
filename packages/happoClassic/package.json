@@ -6,8 +6,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "happoc:run": "webpack --config happoClassic/webpack.config.js && rm -rf happoClassic/screenshots && happo run",
-    "happoc:review": "happo review"
+    "happo:run": "webpack --config testHelpers/webpack.config.js && rm -rf testHelpers/screenshots && happo run",
+    "happo:review": "happo review"
   },
   "repository": {
     "type": "git",

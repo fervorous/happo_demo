@@ -14,7 +14,7 @@ module.exports = {
 
   // Specify the folder where snapshots are saved
   // (default: 'snapshots')
-  snapshotsFolder: 'happoClassic/screenshots',
+  snapshotsFolder: 'testHelpers/screenshots',
 
   // An array of "targets" to run. Targets specify the environment to run
   // the snapshots in. Must specify at least one.
@@ -23,7 +23,7 @@ module.exports = {
     new FirefoxTarget({
       // ... configuration for FirefoxTarget
       sourceFiles: [
-        'happoClassic/dist/main.js',
+        'testHelpers/dist/main.js',
       ]
     }),
   ],
