@@ -61,5 +61,5 @@ typings/
 .next
 
 # happo classic related ignores
-happoClassic/dist
-happoClassic/screenshots
+packages/happoClassic/dist
+packages/happoClassic/screenshots
