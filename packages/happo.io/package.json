@@ -1,0 +1,29 @@
+{
+  "name": "happoio_demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "happo": "happo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fervorous/happo_demo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fervorous/happo_demo/issues"
+  },
+  "homepage": "https://github.com/fervorous/happo_demo#readme",
+  "dependencies": {
+    "next": "^4.2.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "happo.io": "^0.5.0"
+  }
+}

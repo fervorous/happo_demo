@@ -58,7 +58,8 @@ typings/
 .env
 
 # nextjs ignores
-.next
+packages/happoClassic/.next
+packages/happo.io/.next
 
 # happo classic related ignores
 packages/happoClassic/dist
